@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  line-height: 1.6rem;
+}
+
+
+.logo {
+  width: 75px;
+  height: 75px;
+  object-fit: contain;
+}
+
+
+
+.container {
+  padding: 1rem 1.5rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+  /* background-color: red; */
+}
+
+ul {
+  display: flex;
+  align-items: center;
+}
+
+ul li {
+  padding: 0 1rem;
+}
+
+/* First Section */
+
+.first,
+.second {
+  display: flex;
+}
+
+.first img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.first h2,
+.first p {
+  width: 35%;
+}
+
+.first h2, .first h3 {
+  color: hsl(243, 87%, 12%);
+}
+
+.first p, .first h4 {
+  color: hsl(238, 22%, 44%);
+}
+
+.first input,
+.first button {
+  padding: 5px 20px;
+}
+
+.first p,
+#second h4 {
+  padding: 0.6rem 0;
+}
+
+.first .btn {
+  background-color: hsl(224, 93%, 58%);
+  border: none;
+  border-radius: 2px;
+  color: #fff;
+}
+
+/* Second Section */
+#second {
+  background-image: url('/images/bg-curve-desktop.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  background-position: 75%;
+}
+
+#second h4 {
+  width: 45%;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  width: 18%;
+  border-bottom: 1px solid  hsl(170, 45%, 43%);
+  color:  hsl(170, 45%, 43%);
+}
+
+
+.icon img {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+}
+
+
+.kyle {
+  margin-top: 50px;
+  background-color: #fff;
+  width: 55%;
+  padding: 0.2rem 0.5rem;
+  border-radius: 10px;
+}
+
+.kyle img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.kyle-2 {
+  display: flex;
+  column-gap: 10px;
+  /* align-items: center; */
+}
+
+.kyle-2 p {
+  color: hsl(243, 87%, 12%);
+}
+
+.kyle-2 span {
+  display: block;
+  width: 100%;
+  color: hsl(238, 22%, 44%);
+}
+
+.kyle h6 {
+  width: 45%;
+  color: hsl(238, 22%, 44%);
+}
+
+
+/* Third Section  */
+.third {
+  padding: 30px;
+  display: flex;
+  background-color: hsl(238, 22%, 44%);
+  color: #fff;
+}
+
+.third p {
+  padding-top: 10px;
+}
+
+.third-1 p {
+  width: 45%;
+}
+
+.third-2 input {
+  /* width: 100%; */
+  padding: 5px 20px;
+  margin-top: 15px;
+}
+
+.third-2 button {
+  border: none;
+  border-radius: 2px;
+  color: #fff;
+  padding: 8px 20px;
+  background-color: hsl(224, 93%, 58%);
+  display: block;
+  margin-top: 20px;
+}
+
+/* Fourth Section */
+.fourth {
+  background-color: hsl(243, 87%, 12%);
+  padding: 2rem 7rem;
+  color: #fff;
+}
+
+.fourt {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.logo-1 {
+  color: white;
+  /* width: 75px;
+  height: 75px;
+  object-fit: contain; */
+  /* margin-bottom: 40px; */
+}
+
+.list {
+  margin-top: 3.5rem;
+}
+
+.list .fab {
+  border-radius: 2rem;
+  border: 1px solid white;
+  padding: 0.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+  }
+
+.logo {
+}
+
+.first, .second {
+  flex-direction: column;
+  
+}
+
+.first h2,.first p {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.first input, .first button {
+  width: 100%;
+  /* padding: 10px; */
+
+}
+.first button {
+  margin-top: 10px;
+  padding: 10px;
+}
+
+/* Second Section */
+
+.second {
+  padding: 2rem o;
+}
+
+#second h4 {
+  width: 100%;
+}
+
+.icon {
+  flex-direction: row;
+  width: 100%;
+  /* text-align: center; */
+  justify-content: center;
+column-gap: 10px;
+}
+
+.kyle {
+  width: 100%;
+}
+
+.kyle h6{
+  width: 100%;
+}
+
+.kyle-2 {
+align-items: center;
+}
+
+
+/* Third Section */
+.third {
+  flex-direction: column;
+  text-align: center;
+  
+}
+
+.third-1 p {
+  width: 100%;
+}
+
+.third-2 input, .third-2 button {
+  width: 100%;
+  padding: 10px 30px;
+}
+
+.third-2 button {
+  padding: 10px;
+  margin-top: 10px;
+}
+
+/* Fourth Section */
+.fourt {
+  flex-direction: column;
+  text-align: center;
+}
+
+.fourt img {
+  margin-left: -50px;
+}
+
+.fourt p {
+  width: 100%;
+display: flex-start;
+}
+
+
+
+}
+
