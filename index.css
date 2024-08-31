@@ -238,8 +238,11 @@ ul li {
 @media (max-width: 768px) {
   nav {
     flex-direction: column;
+    
   }
-
+.first img {
+  margin-top: 2rem;
+}
 .logo {
 }
 
@@ -274,6 +277,10 @@ ul li {
   width: 100%;
 }
 
+.second img {
+  margin-top: 3rem;
+}
+
 .icon {
   flex-direction: row;
   width: 100%;
@@ -297,6 +304,7 @@ align-items: center;
 
 /* Third Section */
 .third {
+  margin-top: 2rem;
   flex-direction: column;
   text-align: center;
   
