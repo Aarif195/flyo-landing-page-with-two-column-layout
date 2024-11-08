@@ -391,9 +391,8 @@ display: flex;
 align-items: center;
 justify-content: center;
   padding: 1.5rem;
-  width: 70px;
-  height: 70px;
-  align-items: center;
+  width: 40px;
+  height: 40px;
 }
 
 }
